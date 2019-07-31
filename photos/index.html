@@ -6,20 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>制作B站导航网页 | 种花家的狐狸</title>
+  <title>相册 | 种花家的狐狸</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="制作B站导航网页一、相关准备 网页浏览工具：推荐Google Chrome或者FireFox  网页代码编辑工具：推荐使用Sublime Text 3  关于如何安装使用Sublime Text 3见另一篇文章   部分资源">
-<meta name="keywords" content="极客范,实例">
-<meta property="og:type" content="article">
-<meta property="og:title" content="制作B站导航网页">
-<meta property="og:url" content="http://yoursite.com/2019/07/19/制作B站导航网页/index.html">
+  <meta name="description" content="Ins 	摄影   	图片来自instagram，正在加载中…     (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChi">
+<meta property="og:type" content="website">
+<meta property="og:title" content="相册">
+<meta property="og:url" content="http://yoursite.com/photos/index.html">
 <meta property="og:site_name" content="种花家的狐狸">
-<meta property="og:description" content="制作B站导航网页一、相关准备 网页浏览工具：推荐Google Chrome或者FireFox  网页代码编辑工具：推荐使用Sublime Text 3  关于如何安装使用Sublime Text 3见另一篇文章   部分资源">
+<meta property="og:description" content="Ins 	摄影   	图片来自instagram，正在加载中…     (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChi">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-07-31T04:27:41.812Z">
+<meta property="og:updated_time" content="2017-07-28T18:51:08.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="制作B站导航网页">
-<meta name="twitter:description" content="制作B站导航网页一、相关准备 网页浏览工具：推荐Google Chrome或者FireFox  网页代码编辑工具：推荐使用Sublime Text 3  关于如何安装使用Sublime Text 3见另一篇文章   部分资源">
+<meta name="twitter:title" content="相册">
+<meta name="twitter:description" content="Ins 	摄影   	图片来自instagram，正在加载中…     (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChi">
   
     <link rel="alternative" href="/atom.xml" title="种花家的狐狸" type="application/atom+xml">
   
@@ -171,44 +170,43 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-制作B站导航网页" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-photos" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      制作B站导航网页
+      相册
     </h1>
   
 
-        
-        <a href="/2019/07/19/制作B站导航网页/" class="archive-article-date">
-  	<time datetime="2019-07-18T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-19</time>
-</a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="制作B站导航网页"><a href="#制作B站导航网页" class="headerlink" title="制作B站导航网页"></a>制作B站导航网页</h1><h2 id="一、相关准备"><a href="#一、相关准备" class="headerlink" title="一、相关准备"></a>一、相关准备</h2><ol>
-<li><p>网页浏览工具：推荐<strong>Google Chrome</strong>或者<strong>FireFox</strong></p>
-</li>
-<li><p>网页代码编辑工具：推荐使用<strong><a href="http://www.sublimetext.com/" target="_blank" rel="noopener">Sublime Text 3</a></strong></p>
-<blockquote>
-<p>关于如何安装使用Sublime Text 3见另一篇文章</p>
-</blockquote>
-</li>
-<li><p>部分资源</p>
-</li>
-</ol>
-<a id="more"></a>
+        <link rel="stylesheet" href="./ins.css">
+<div class="photos-btn-wrap">
+	<a class="photos-btn active" href="javascript:void(0)" target="_blank" rel="noopener">Ins</a>
+	<a class="photos-btn" target="_blank" href="http://litten.me/gallery/">摄影</a>
+</div>
+<div class="instagram itemscope">
+	<a href="https://www.instagram.com/litten225/" target="_blank" class="open-ins">图片来自instagram，正在加载中…</a>
+</div>
+<script>
+  (function() {
+    var loadScript = function(path) {
+      var $script = document.createElement('script')
+      document.getElementsByTagName('body')[0].appendChild($script)
+      $script.setAttribute('src', path)
+    }
+    setTimeout(function() {
+      loadScript('./ins.js')
+    }, 0)
+  })()
+</script>
 
-<h2 id="二，基础文件配置"><a href="#二，基础文件配置" class="headerlink" title="二，基础文件配置"></a>二，基础文件配置</h2><ol>
-<li>新建一个文件夹，在其中新建一个文本文档，将其改为*<u>html</u>*格式的文件作为我们要打造的网页的基础。</li>
-<li>在网页文件的同级目录下再建三个文件夹，分别命名为：<code>css</code>,<code>js</code>,<code>images</code>存放相关资源。</li>
-</ol>
-<h2 id="三、HTML相关知识"><a href="#三、HTML相关知识" class="headerlink" title="三、HTML相关知识"></a>三、HTML相关知识</h2>
       
 
       
@@ -237,21 +235,6 @@
     <div class="article-info article-info-index">
       
       
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">极客范</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">实例</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
       
 
       
@@ -263,25 +246,6 @@
 </article>
 
   
-<nav id="article-nav">
-  
-    <a href="/2019/07/22/国防体育协会组织部工作宝典/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          国防体育协会组织部工作宝典
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2019/07/18/My-First-Blog/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">My First Blog</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -303,7 +267,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#制作B站导航网页"><span class="toc-number">1.</span> <span class="toc-text">制作B站导航网页</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、相关准备"><span class="toc-number">1.1.</span> <span class="toc-text">一、相关准备</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二，基础文件配置"><span class="toc-number">1.2.</span> <span class="toc-text">二，基础文件配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三、HTML相关知识"><span class="toc-number">1.3.</span> <span class="toc-text">三、HTML相关知识</span></a></li></ol></li></ol>
+                    目录，不存在的…
                     </div>
                 </span>
             </div>
@@ -313,26 +277,6 @@
 </aside>
 
 
-
-  
-  
-  
-
-  
-  <div id="SOHUCS" sid="制作B站导航网页" ></div> 
-<script charset="utf-8" type="text/javascript" src="//changyan.sohu.com/upload/changyan.js" ></script>
-<script type="text/javascript">
-    window.changyan.api.config({
-        appid: "cysX3aGWt",
-        conf: "prod_1dcda447175aada96edcdb7e412338fa"
-    });
-</script>
-</script>
-  
-
-  
-
-  
 
 
           </div>
@@ -355,7 +299,7 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
+		isPost: false,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
